@@ -1,14 +1,19 @@
 package shopping;
 
-public class Sock<E> extends Pair<E> implements Sized{
+public class Sock<E> extends Pair<E> implements Sized,Colored{
 
 
-    public Sock(E left, E right) {
-        super(left, right);
+    public Sock(E data) {
+        super(data,data);
     }
 
     @Override
     public boolean getSized() {
+        return false;
+    }
+
+    @Override
+    public boolean hasColor() {
         return false;
     }
 }

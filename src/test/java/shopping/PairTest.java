@@ -11,8 +11,7 @@ public class PairTest {
 
         System.out.println(myStringPair);
 
-        ClothingPair<Sock>clothingPair = new ClothingPair<>(new Sock("a","b"));
-
+        ClothingPair<Sock> clothingPair= new ClothingPair<>(new Sock("a"));
 
 
     }
